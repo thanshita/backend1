@@ -16,7 +16,7 @@ app.use(bodyParser.json({ limit: '50mb' }));
 app.post('/orders', paymentController.orders)
 app.post('/verify', paymentController.verfiy)
 
-mongoose.connect('mongodb+srv://thansyb:food@cluster0.flsglss.mongodb.net/?retryWrites=true&w=majority')
+mongoose.connect('mongodb+srv://rohithsuri2003:mern@cluster0.vzrjutg.mongodb.net/?retryWrites=true&w=majority')
     .then((res) => {
         console.log('connected to database')
     }).catch(err => console.log(err))
